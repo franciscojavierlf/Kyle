@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <title>Kyle</title>
+
+    <!-- Utils -->
+    <script src="scripts/utils.js"></script>
+
+    <!-- Listeners -->
+    <script src="scripts/listeners/keyboard.js"></script>
+
+    <!-- Objects -->
+    <script src="scripts/gameobjects/sprite.js"></script>
+    <script src="scripts/gameobjects/animation.js"></script>
+    <script src="scripts/gameobjects/animator.js"></script>
+    <script src="scripts/gameobjects/boxcollider.js"></script>
+    <script src="scripts/gameobjects/gameobject.js"></script>
+
+    <!-- Entities -->
+    <script src="scripts/gameobjects/entities/entity.js"></script>
+    <script src="scripts/gameobjects/entities/mobs/mob.js"></script>
+    <script src="scripts/gameobjects/entities/mobs/kyle.js"></script>
+
+    <script src="scripts/gameobjects/entities/inanim/box.js"></script>
+    <script src="scripts/gameobjects/entities/inanim/platform.js"></script>
+    
+    <!-- Engine -->
+    <script src="scripts/camera.js"></script>
+    <script src="scripts/scene.js"></script>
+    <script src="scripts/game.js"></script>
+
+    <!-- Game -->
+    <script src="scripts/scenes/scenes.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Kyle</h1>
+      <canvas width="900px" height="600px" id="main-canvas"></canvas>
+    </div>
+    <script>
+      // Starts the game
+      let canvas = document.getElementById('main-canvas')
+      Game.start(canvas)
+      Game.debug = false
+    </script>
+  </body>
+</html>

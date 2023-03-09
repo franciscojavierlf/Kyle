@@ -1,0 +1,14 @@
+* {
+    background-color: black;
+}
+
+#container {
+    text-align: center;
+    color: white;
+}
+
+/* The canvas */
+#main-canvas {
+    border: 1px solid white;
+    zoom: 100%;
+}
